@@ -1,0 +1,72 @@
+<!DOCTYPE html>
+<html>
+    <head>
+        <title>Koenigsegg</title>
+        <meta charset="utf-8">
+        <link rel="stylesheet" href="../css/styles.css">
+        <link rel="icon" href="../img/c.png">
+        <style>
+            .footer{
+                position: absolute;
+                top: 100%;
+                width: 100%;
+            }
+        </style>
+    </head>
+    <body>
+        <body>
+            <div class="nav">
+                <div class="home">
+                    <a href="../index.html"><img src="../img/b.png" alt="home"></a>
+                </div>
+                <div class="navtxt">
+                    <a href="top10.html">Fastest cars</a>
+                    <a href="top3.html">Favorites</a>
+                    <a href="about.html">About</a>
+                    <a href="Christian.html">Christian koenigsegg</a>
+                </div>
+                <div id="dropdown" class="hamburger">
+                    <img src="../img/d.png" alt="Hamburger button"></a>
+                    <div id="dropdown_menu" style="display: none">
+                        <a href="">Hei</a>
+                        <a href="">Geir</a>
+                    </div>
+                </div>
+            </div>
+        <div class="favh">
+            <h1>My Favorite vichles</h1>
+            <h2>(cars i'll buy when I am rich)</h2>
+        </div>
+        <div class="fav">
+            <div class="lfav">
+                <h1>Nr.2</h1>
+                <h2>Brabus 800 on Mercedes-Benz AMG E63 S</h2>
+                <a href="https://www.brabus.com/en/supercars/brabus-800-gt4.html"><img src="../img/favl.jpg" alt="mercedes-benz"></a>
+            </div>
+            <div class="mfav">
+                <h1>nr.1</h1>
+                <h2>koenigsegg agera rs</h2>
+                <a href="https://en.wikipedia.org/wiki/Koenigsegg_Agera#:~:text=The%20name%20comes%20from%20the,(You)%20act!%22.&text=The%20Agera%20RS%20variant%20became,%2Fh%20(285%20mph)."><img src="../img/mfav.png" alt="koenigsegg agera rs"></a>
+            </div>
+            <div class="rfav">
+                <h1>nr.3</h1>
+                <h2>Tesla roadster</h2>
+                <a href="https://www.tesla.com/roadster"><img src="../img/mfav.jpg" alt="Tesla roadster"></a>
+            </div>
+        </div>
+        <div class="footer">
+            <h1><a href="about.html">2020@Andreas Drevdal</a></h1>
+        </div>
+    </body>
+    <script>
+        // Dropdown
+        const dropdown_menu = document.getElementById("dropdown_menu");
+        document.getElementById("dropdown").addEventListener("click", () => {
+            if (dropdown_menu.style.display == "block") {
+                dropdown_menu.style.display = "none";
+            } else if (dropdown_menu.style.display == "none") {
+                dropdown_menu.style.display = "block";
+            }
+        });
+        </script>
+</html>

@@ -1,0 +1,69 @@
+<!DOCTYPE html>
+<html>
+    <head>
+        <title>Koenigsegg</title>
+        <meta charset="utf-8">
+        <link rel="stylesheet" href="css/styles.css">
+        <link rel="icon" href="img/c.png">
+    </head>
+    <body>
+        <div class="nav">
+            <div class="home">
+                <a href=""><img src="img/b.png" alt="home"></a>
+            </div>
+            <div class="navtxt">
+                <a href="web/top10.html">Fastest cars</a>
+                <a href="web/top3.html">Favorites</a>
+                <a href="web/about.html">About</a>
+                <a href="web/Christian.html">Christian koenigsegg</a>
+            </div>
+            <div id="dropdown" class="hamburger">
+                <img src="img/d.png" alt="Hamburger button"></a>
+                <div id="dropdown_menu" style="display: none">
+                    <a href="">Hei</a>
+                    <a href="">Geir</a>
+                </div>
+            </div>
+        </div>
+        <div class="front">
+            <h1>Koenigsegg</h1>
+        </div>
+            <div class="vtdafn">
+                <h1>Koenigsegg</h1>
+            </div>
+        <div class="call">
+            <a href="https://www.koenigsegg.com/" target="_blank">Check out the official koenigsegg website now!</a>
+        </div>
+        <div class="frontintro">
+            <p>
+                The company was founded in 1994 in Sweden by Christian von Koenigsegg, with the intention of producing a "world-class" sports car. Many years of development and testing led to the CC8S, the company's first street-legal production car which was introduced in 2002.
+
+In 2006, Koenigsegg began production of the CCX, which uses an engine created in-house especially for the car. The goal was to develop a car homologated for use worldwide, particularly the United States whose strict regulations didn't allow the import of earlier Koenigsegg models.
+
+In March 2009, the CCXR was listed by Forbes as one of "the world's most beautiful cars".
+
+In December 2010, the Agera won the BBC Top Gear Hypercar of the Year Award.
+
+Apart from developing, manufacturing and selling the Koenigsegg line of sports cars, Koenigsegg is also involved in "green technology" development programmes beginning with the CCXR ("Flower Power") flex-fuel sports car and continuing through the present with the Jesko. Koenigsegg is also active in development programs of plug-in electric cars' systems and next-generation reciprocating engine technologies. Koenigsegg has also developed a camless piston engine which found its first application in the Regera, which was introduced in 2015.
+
+Koenigsegg develops and produces most of the main systems, subsystems and components needed for their cars in-house instead of relying on subcontractors.
+
+In January 2019, Koenigsegg sold a 20% stake in the company to Swedish electric car manufacturer ( Egstrand & Lundgren), National Electric Vehicle Sweden (NEVS), for US$171 million.
+            </p>
+        </div>
+        <div class="footer">
+            <h1><a href="web/about.html">2020@Andreas Drevdal</a></h1>
+        </div>
+    </body> 
+    <script>
+        // Dropdown
+        const dropdown_menu = document.getElementById("dropdown_menu");
+        document.getElementById("dropdown").addEventListener("click", () => {
+            if (dropdown_menu.style.display == "block") {
+                dropdown_menu.style.display = "none";
+            } else if (dropdown_menu.style.display == "none") {
+                dropdown_menu.style.display = "block";
+            }
+        });
+        </script>
+</html>

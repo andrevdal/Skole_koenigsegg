@@ -1,0 +1,64 @@
+<!DOCTYPE html>
+<html>
+    <head>
+        <title>Koenigsegg</title>
+        <meta charset="utf-8">
+        <link rel="stylesheet" href="../css/styles.css">
+        <link rel="icon" href="../img/c.png">
+        <style>
+            .footer{
+                position: absolute;
+                top: 100%;
+                width: 100%;
+            }
+        </style>
+    </head>
+    <body>
+            <div class="nav">
+                <div class="home">
+                    <a href="../index.html"><img src="../img/b.png" alt="home"></a>
+                </div>
+                <div class="navtxt">
+                    <a href="top10.html">Fastest cars</a>
+                    <a href="top3.html">Favorites</a>
+                    <a href="about.html">About</a>
+                    <a href="Christian.html">Christian koenigsegg</a>
+                </div>
+                <div id="dropdown" class="hamburger">
+                    <img src="../img/d.png" alt="Hamburger button"></a>
+                    <div id="dropdown_menu" style="display: none">
+                        <a href="">Hei</a>
+                        <a href="">Geir</a>
+                    </div>
+                </div>
+            </div>
+            <div class="about">
+                <img src="../img/DSC_0181.jpg" alt="Andreas Drevdal">
+            </div>
+            <div class="abouttxt">
+                <h1>Andreas Drevdal</h1>
+                <h2>Fødselsdato: 29. september 2004</h2>
+                <h2>Bosted: Asker</h2>
+                <h2>Drømmejobb: selskapseier (søkk rik)</h2>
+                <h2>om meg:</h2>
+                <p>Jeg heter er en gutt på 16 å som er glad i biler, teknologi og mat. Jeg er en meget sosial person med skyhøye ambisjoner.</p>
+                <b>andreas.drevdal@gmail.com</b>
+                <br>
+                <b>github: <a href="https://github.com/andrevdal">andrevdal</a></b>
+            </div>
+            <div class="footer">
+                <h1><a href="about.html">2020@Andreas Drevdal</a></h1>
+            </div>
+    </body>
+    <script>
+        // Dropdown
+        const dropdown_menu = document.getElementById("dropdown_menu");
+        document.getElementById("dropdown").addEventListener("click", () => {
+            if (dropdown_menu.style.display == "block") {
+                dropdown_menu.style.display = "none";
+            } else if (dropdown_menu.style.display == "none") {
+                dropdown_menu.style.display = "block";
+            }
+        });
+        </script>
+</html>

@@ -1,0 +1,60 @@
+<!DOCTYPE html>
+<html>
+    <head>
+        <title>Koenigsegg</title>
+        <meta charset="utf-8">
+        <link rel="stylesheet" href="../css/styles.css">
+        <link rel="icon" href="../img/c.png">
+    </head>
+    <body>
+        <div class="nav">
+            <div class="home">
+                <a href="../index.html"><img src="../img/b.png" alt="home"></a>
+            </div>
+            <div class="navtxt">
+                <a href="top10.html">Fastest cars</a>
+                <a href="top3.html">Favorites</a>
+                <a href="about.html">About</a>
+                <a href="Christian.html">Christian koenigsegg</a>
+            </div>
+            <div id="dropdown" class="hamburger">
+                <img src="../img/d.png" alt="Hamburger button"></a>
+                <div id="dropdown_menu" style="display: none">
+                    <a href="">Hei</a>
+                    <a href="">Geir</a>
+                </div>
+            </div>
+        </div>
+        <div class="c">
+            <h1>Christian von Koenigsegg</h1>
+            <img src="../img/ck.png" alt="Christian von koenigsegg">
+            <p>Christian Erland Harald von Koenigsegg (born 2 July 1972) is the founder and CEO of the Swedish high-performance automobile manufacturer Koenigsegg Automotive AB.
+
+In 1994, Koenigsegg launched the "Koenigsegg project" which eventually became Koenigsegg Automotive AB. Designer David Crafoord provided a design concept following Koenigsegg’s guidelines. The prototype enabled the foundation of Koenigsegg Automotive AB.
+
+Koenigsegg and his wife, Halldora von Koenigsegg, are active in the company's management.</p>
+            <h2>Early life</h2>
+            <img src="../img/cky.jpg" alt="Christian von koenigsegg young">
+            <p>Christian von Koenigsegg is the son of Jesko von Koenigsegg, CEO of JK Energiteknik, and fashionista Brita Aasa. The von Koenigsegg lineage is attested from CE 1171 and originates in Swabia.
+
+                Von Koenigsegg grew up in Stockholm, and spent a year in high school in Danderyd before enrolling at Lundsbergs boarding school, and then studied economics at the Scandinavian School of Brussels. von Koenigsegg showed an interest in cars from an early age, starting at the age of five when he watched the stop-motion film The Pinchcliffe Grand Prix, about a bicycle builder who built a racing car, Il Tempo Gigante. When he was six years old, he drove a go-kart for the first time in his life, and he vividly recalls this as "one of the best days of his life".</p>
+            <h2>Innovations</h2>
+            <p> novel idea of Koenigsegg is triplex suspension: a rear suspension system used in current Koenigsegg models that allows for maximum comfort and straight-line speed. It uses a transversely-mounted shock-absorber that connects the two rear wheels as well as independent suspension systems for each wheel. Another innovation that the company is pursuing is free valve technology that uses electronics and air pressure to actuate intake and exhaust valves. This provides very high precision and unlimited timing control, instead of the traditional camshaft technology for their cars, allowing for engines to be much more efficient by reducing weight and size of engines, while making each cylinder able to be controlled independently, allowing for more complete combustion.</p>
+
+        </div>  
+        <div class="footer">
+            <h1><a href="about.html">2020@Andreas Drevdal</a></h1>
+        </div>
+    </body>
+    <script>
+        // Dropdown
+        const dropdown_menu = document.getElementById("dropdown_menu");
+        document.getElementById("dropdown").addEventListener("click", () => {
+            if (dropdown_menu.style.display == "block") {
+                dropdown_menu.style.display = "none";
+            } else if (dropdown_menu.style.display == "none") {
+                dropdown_menu.style.display = "block";
+            }
+        });
+        </script>
+</html>

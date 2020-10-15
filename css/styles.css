@@ -1,0 +1,212 @@
+ body{
+     margin: 0px;
+     font-family: monospace;
+     width: 100%;
+    }
+ .nav{
+     padding: 0.75% 0% 0%;
+     font-size: 220%;
+     background-color: whitesmoke;
+     position: sticky;
+     top: 0%;
+ }
+ .nav a{
+     text-decoration: none;
+     color: black;
+     padding: 0.5% 5% 0.5% 5%;
+     padding-left: 3%;
+     padding-right: 3%;
+     font-weight: 300%;
+ }
+ .nav a:hover{
+     background-color: black;
+     color: whitesmoke;
+ }
+ .front{
+     font-size: 300%;
+     text-align: center;
+     padding: 4% 20% 34.5% 20%;
+     background-image: url('../img/a.jpg');
+     background-repeat: no-repeat;
+     background-position: top;
+     background-attachment: fixed;
+ }
+ .frontintro{
+     margin: auto;
+     text-align: left;
+     font-size: 200%;
+     width: 50%;
+     background-color: whitesmoke;
+     padding: 1%;
+ }
+ .hamburger{
+    float: right;
+    margin-right: 1%;
+    background-color: whitesmoke;
+ }
+ /*.hamburger:hover{
+    position: fixed;
+    padding: 10%;
+    right: 0;
+ }*/
+ .hamburger img{
+     height: 50px
+ }
+ .home{
+    display: inline-block;
+    margin-right: 0.5%;
+    margin-left: 1%;
+ }
+ .home img{
+     height: 60px;
+ }
+ .home a:hover{
+     color: black;
+     background-color: whitesmoke;
+ }
+ .hamburger a:hover{
+     color: black;
+     background-color: whitesmoke;
+ }
+ .navtxt{
+     display: inline-block;
+     margin: 0% 0% 0% 3%;
+     width: 60%;
+     position: absolute;
+     top: 50;
+ }
+ .vtdafn{
+     text-align: center;
+     font-size: 300%;
+     width: 25%;
+     background-color: black;
+     color: white;
+     margin:auto;
+     padding: 0.0007%;
+ }
+ .call{
+    background-color: red;
+    text-align: center;
+    padding: 2%;
+    position: fixed;
+    top: 80%;
+    left: 75%;
+    width: 20%;
+    font-size: 150%;
+    opacity: 75%;
+    box-shadow: 10px 10px 10px black;
+}
+.call a{
+    color: black;
+    text-decoration: none;
+}
+.call:hover{
+    opacity: 100%;
+    box-shadow: 10px 10px 10px darkgray;
+}
+.call a:hover{
+    background-color: black;
+    color: red;
+}
+.top{
+    padding: 10% 3% 10% 3%;
+    text-align: center;
+    font-size: 75%;
+}
+.top img{
+    width: 100%;
+}
+.toph{
+    text-align: center;
+    background-color: white;
+}
+.top10{
+    width: 50%;
+    margin: auto;
+    font-size: 200%;
+    text-align: center;
+}
+.fav{
+    text-align: center;
+}
+.lfav{
+    background-color: whitesmoke;
+    display: inline-block;
+    width: 25%;
+    position: absolute;
+    top: 30%;
+    right: 70%;
+}
+.lfav img{
+    width: 100%;
+}
+.mfav{
+    background-color: whitesmoke;
+    display: inline-block;
+    width: 25%;
+    position: absolute;
+    top: 25%;
+    right: 37.5%;
+    left: 37.5%;
+}
+.mfav img{
+    width: 100%;
+}
+.rfav{
+    background-color: whitesmoke;
+    display: inline-block;
+    width: 25%;
+    position: absolute;
+    top: 35%;
+    left: 70%;
+}
+.rfav img{
+    width: 100%;
+}
+.lfav:hover{
+    width: 30%;
+}
+.mfav:hover{
+    width: 30%;
+    left: 35%;
+}
+.rfav:hover{
+    width: 30%;
+}
+.favh{
+    text-align: center;
+    margin-top: 3%;
+    background-color: whitesmoke;
+}
+.c{
+    width: 50%;
+    background-color: whitesmoke;
+    margin: auto;
+    font-size: 200%;
+}
+.c h1{
+    text-align: center;   
+    background-color: white;
+}
+.c img{
+    width: 100%;
+}
+.c h2{
+    background-color: white;
+}
+.about img{
+    width: 30%;
+    margin: 5% 0% 0% 5%;
+}
+.abouttxt{
+    width: 40%;
+    position: absolute;
+    top: 14%;
+    right: 5%;
+    font-size: 200%;
+}
+.footer{
+    text-align: center;
+    background-color: rgb(165, 165, 165);
+    padding: 3%;
+}
